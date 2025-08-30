@@ -1,0 +1,56 @@
+# =============================
+# Visual Studio / .NET Core
+# =============================
+# Build-Ordner
+bin/
+obj/
+publish/
+
+# User-spezifische Dateien
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Publish-Ordner
+publish/
+
+# ASP.NET Core / Minimal API
+appsettings.*.json
+appsettings.Development.json
+secrets.json
+
+# SQLite Datenbank
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Sonstige temporäre Dateien
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Node / NPM falls verwendet
+node_modules/
+npm-debug.log*
+
+# JetBrains Rider / IDE Konfiguration
+.idea/
+*.sln.iml
